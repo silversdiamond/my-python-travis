@@ -6,7 +6,7 @@ from dateutil.relativedelta import relativedelta
 from time_walker import walk
 
 
-class TestLoader(unittest.TestCase):
+class TestWalker(unittest.TestCase):
     def test_walker(self):
         start_ts = datetime.datetime.strptime("01/09/14", "%d/%m/%y")
         end_ts = datetime.datetime.strptime("16/09/16", "%d/%m/%y")
